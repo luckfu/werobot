@@ -1,11 +1,11 @@
 #!/alidata1/www-data/WeRoBot/env/bin/python
 # -*- coding: utf-8 -*-
-from flask import Flask,request,make_response,g
+from flask import Flask, g
 from flaskext.mysql import MySQL
 
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123123@127.0.0.1/webapp'
 #db = SQLAlchemy(app)
-
+#这个测试很变态
 
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_HOST']='localhost'
@@ -17,16 +17,6 @@ app.config['MYSQL_DATABASE_CHARSET']='utf8'
 mysql = MySQL()
 mysql.init_app(app)
 
-mysql = MySQL()
-mysql.init_app(app)
-mysql = MySQL()
-mysql.init_app(app)
-mysql = MySQL()
-mysql.init_app(app)
-mysql = MySQL()
-mysql.init_app(app)
-mysql = MySQL()
-mysql.init_app(app)
 mysql = MySQL()
 mysql.init_app(app)
 
