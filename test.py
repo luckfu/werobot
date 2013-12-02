@@ -17,6 +17,19 @@ app.config['MYSQL_DATABASE_CHARSET']='utf8'
 mysql = MySQL()
 mysql.init_app(app)
 
+mysql = MySQL()
+mysql.init_app(app)
+mysql = MySQL()
+mysql.init_app(app)
+mysql = MySQL()
+mysql.init_app(app)
+mysql = MySQL()
+mysql.init_app(app)
+mysql = MySQL()
+mysql.init_app(app)
+mysql = MySQL()
+mysql.init_app(app)
+
 
 @app.before_request
 def connect_db():
