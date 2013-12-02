@@ -6,6 +6,7 @@ from flaskext.mysql import MySQL
 #app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://root:123123@127.0.0.1/webapp'
 #db = SQLAlchemy(app)
 #这个测试很变态
+#git 不好用啊
 
 app = Flask(__name__)
 app.config['MYSQL_DATABASE_HOST']='localhost'
